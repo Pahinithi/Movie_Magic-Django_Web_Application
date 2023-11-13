@@ -1,0 +1,122 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .btn{
+            border-color: rgb(207, 0, 0);
+            color: dodgerblue;
+            transition: all 0.5s;
+            font-size: 28px;
+            }
+        .btn{background: rgb(255, 36, 36);
+            color: white;
+            cursor: pointer;
+        }
+        ​.btn:hover {background-color: #e04545}
+        .btn span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+          .btn span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+          }
+          .btn:hover span {
+            padding-right: 25px;
+          }
+          .btn:hover span:after {
+            opacity: 1;
+            right: 0;
+          }
+    </style>
+    <style type="text/css">
+        .blinking{
+            animation:blinkingText 1.2s infinite;
+        }
+        @keyframes blinkingText{
+           80%{	color: #F00;	}
+            50%{	color: rgb(5, 212, 74);	}
+            30%{	color: rgb(212, 212, 3);	}
+        }
+            </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Team</title>
+</head>
+<body bgcolor="#F9E79F">
+    <marquee bgcolor="#000000" style="color: #FFFFFF; font-size: xx-large; ; font-family: Book Antiqua" behavior="alternate" style=" scroll-behavior: smooth; " scrollamount="300">/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\</marquee>
+	
+	<center>
+        <br>
+        <h3> <font face="Verdana" color="darkblue">   Team Information  </font></h3>
+        
+        <div>
+           
+                    <!-- <img src="{{baseUrl}}/p{{d.image}}" alt=""> -->
+					<font size="10">DA3330 - Business Application Development : Django using Python </font>
+					
+                    <h3> <font face="Verdana" color="darkblue">   Project Topic: Online movie ticket system   </font></h3>
+                   
+                    <font face="Courier New" size=10 color="Blue" ><span class="blinking" ><b> Guided By : Mr. Supun Gothama </b></span></font>
+<font face="Courier New" size=10 color="Blue" ><span class="blinking" ><b>{{d.name}}</b></span></font>
+                    
+                    <table border="1px" align="center" cellpadding="10px" cellspacing="1px" style="font-size:larger;">
+                        <tr>
+							<th>S.No.</th> 
+							<th>Student name</th>
+							<th>Registration Number</th>
+							<th>Department</th>
+							<th>Email</th>
+							<th>Website / Social Media LINK</th>
+						</tr>
+						<tr><td>1</td>
+							<td>Pahirathan  &nbsp; Nithilan</td>
+							<td>206086R</td>
+							<td>BPM</td>
+							<td>nithilanp@uom.lk</td>
+							<td><a href="https://pahinithi.github.io/nithi99/" target="_blank">https://pahinithi.github.io/nithi99/</a></td>
+                        </tr>
+						<tr><td>2</td>
+							<td>Thangavadyvelu  &nbsp; vipoolan</td>
+							<td>206156H</td>
+							<td>BPM</td>
+							<td>vipoolant@uom.lk</td>
+							<td><a href="https://www.linkedin.com/in/vipoolan-vipul-a8b378212/" target="_blank">https://www.linkedin.com/in/vipoolan-vipul-a8b378212/</a></td>
+						</tr>
+						<tr><td>3</td>
+							<td>Thevakulanyagam &nbsp; Akulapiriyan</td>
+							<td>206155E</td>
+							<td>BPM</td>
+							<td>akulapiriyant@uom.lk</td>
+							<td><a href="https://www.linkedin.com/in/akula-piriyan/" target="_blank">https://www.linkedin.com/in/akula-piriyan/</a></td>
+						</tr>
+						<tr><td>4</td>
+							<td>Robina &nbsp; weslykebard</td>
+							<td>206105D</td>
+							<td>BPM</td>
+							<td>robinaw@uom.lk</td>
+							<td><a href="https://www.linkedin.com/in/robina-weslykebard/" target="_blank">https://www.linkedin.com/in/robina-weslykebard/</a></td>
+
+                        
+                    </table>
+                   
+                   
+                    <a href="/index/"><h3><< Click here to goto HOME</h3></a>
+               
+        </div>
+    </center>
+
+
+    <marquee bgcolor="#001180" style="color: #FFFFFF; font-size:xx-large; font-family: Book Antiqua" behavior="alternate" style=" scroll-behavior: smooth; " scrollamount="300">/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\</marquee>
+</body>
+</html>
