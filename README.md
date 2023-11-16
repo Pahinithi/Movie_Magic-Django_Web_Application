@@ -31,4 +31,4 @@ T.Akulapiriyan: (https://github.com/Piriyan98)
 W.Robina: (https://github.com/2001-01-01)
 
 ## gudide / Screenshots 
-https://github.com/Pahinithi/MovieMagic_UOM/tree/main/screenshots
+https://github.com/Pahinithi/Movie_Magic-Django_Web_Application/tree/main/Guide
