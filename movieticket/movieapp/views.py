@@ -4,7 +4,7 @@ from movieapp.models import movies
 from movieapp.models import movies2,reg
 from movieapp.form import regForm
 from movieticket import settings
-# Create your views here.
+# Create your views here
 def index(request):
     m = movies2.objects.all()
     
