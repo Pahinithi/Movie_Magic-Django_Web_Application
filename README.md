@@ -32,3 +32,6 @@ W.Robina: (https://github.com/2001-01-01)
 
 ## Guide / Screenshots 
 https://github.com/Pahinithi/Movie_Magic-Django_Web_Application/tree/main/Guide
+
+## Video Guide
+https://drive.google.com/file/d/1e6f6r3S8RDpLlkJGw61YSvs8ww9hDPY_/view?usp=sharing
