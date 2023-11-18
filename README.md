@@ -23,7 +23,7 @@ User: Nithi1999
 pwd: MovieMagic99
 
 ## Created By
-Pahirathan Nithilan: (https://github.com/Pahinithi)
+Pahirathan Nithilan: (https://pahinithi.github.io/nithi99/)
 
 ## modified by
 T.Viploon: (https://github.com/vipoolan) 
