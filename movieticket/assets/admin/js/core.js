@@ -136,9 +136,7 @@ function findPosY(obj) {
         return result;
     };
 
-    // ----------------------------------------------------------------------------
-    // String object extensions
-    // ----------------------------------------------------------------------------
+
     String.prototype.strptime = function(format) {
         var split_format = format.split(/[.\-/]/);
         var date = this.split(/[.\-/]/);
@@ -161,9 +159,7 @@ function findPosY(obj) {
             }
             ++i;
         }
-        // Create Date object from UTC since the parsed value is supposed to be
-        // in UTC, not local time. Also, the calendar uses UTC functions for
-        // date extraction.
+
         return new Date(Date.UTC(year, month, day));
     };
 
