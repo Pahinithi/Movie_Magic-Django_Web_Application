@@ -37,22 +37,22 @@ MovieMagic website using Django (Python Web framework).
    - Open your web browser and go to [http://127.0.0.1:8000] or [http://localhost:8000] to view the Django app.
 
 ## Admin Panel
-User: Nithi1999
-pwd: MovieMagic99
+- User: Nithi1999
+- pwd: MovieMagic99
 
 ## Created By
-Pahirathan Nithilan: (https://pahinithi.github.io/nithi99/)
+- Pahirathan Nithilan: (https://pahinithi.github.io/nithi99/)
 
 ## modified by
-T.Viploon: (https://github.com/vipoolan) 
-T.Akulapiriyan: (https://github.com/Piriyan98) 
-W.Robina: (https://github.com/2001-01-01)
+- T.Viploon: (https://github.com/vipoolan) 
+- T.Akulapiriyan: (https://github.com/Piriyan98)
+- W.Robina: (https://github.com/2001-01-01)
 
 ## Guide / Screenshots 
-https://github.com/Pahinithi/Movie_Magic-Django_Web_Application/tree/main/Guide
+- https://github.com/Pahinithi/Movie_Magic-Django_Web_Application/tree/main/Guide
 
 ## Video Guide
-https://drive.google.com/file/d/1e6f6r3S8RDpLlkJGw61YSvs8ww9hDPY_/view?usp=sharing
+- https://drive.google.com/file/d/1e6f6r3S8RDpLlkJGw61YSvs8ww9hDPY_/view?usp=sharing
 
 ## Additional Notes
 - For any issues or inquiries, feel free to contact me at nithilan32@gmail.com.
