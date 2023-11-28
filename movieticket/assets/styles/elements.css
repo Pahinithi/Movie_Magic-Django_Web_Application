@@ -1,31 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
 
-/******************************
-
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Header
-4. Menu
-5. Home
-6. Home Search
-7. Elements
-	7.1 Elements - Buttons
-	7.2 Elements - Accordions
-	7.3 Elements - Tabs
-	7.4 Elements - Loaders
-	7.5 Elements - Milestones
-	7.6 Elements - Icon Boxes
-8. Footer
-
-
-******************************/
-
-/***********
-1. Fonts
-***********/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:400,500,600,700');
 
