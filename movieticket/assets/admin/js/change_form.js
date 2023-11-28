@@ -1,4 +1,3 @@
-/*global showAddAnotherPopup, showRelatedObjectLookupPopup showRelatedObjectPopup updateRelatedObjectLinks*/
 
 (function($) {
     'use strict';
