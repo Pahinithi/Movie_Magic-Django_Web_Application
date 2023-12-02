@@ -1,27 +1,27 @@
-# Online-Movie-Ticketing-System
+##  Online-Movie-Ticketing-System
 Web Application project for the Business Application Development module taught at Faculty of Business University of Moratuwa
 
-# MovieMagic
+##  MovieMagic
 MovieMagic website using Django (Python Web framework).
 
-# Install all the dependencies:
+##  Install all the dependencies:
 >  pip install django  
 >  pip install Pillow  
 
-# After installation run the follwing Django commands :
+##  After installation run the follwing Django commands :
 >  py manage.py migrate  
 >  py manage.py runserver  
 
-# Visit "http://127.0.0.1:8000" or "localhost:8000" on your browser to view the django app.  
+##  Visit "http://127.0.0.1:8000" or "localhost:8000" on your browser to view the django app.  
 
-# Admin Panel
+##  Admin Panel
 User: Nithi1999
 pwd: MovieMagic99
 
-# Created By
+##  Created By
 Pahirathan Nithilan: (https://pahinithi.github.io/nithi99/)
 
-# modified by
+##  modified by
 T.Viploon: (https://github.com/vipoolan)
 T.Akulapiriyan: (https://github.com/Piriyan98)
 W.Robina: (https://github.com/2001-01-01)
